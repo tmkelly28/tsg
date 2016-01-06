@@ -1,5 +1,5 @@
 {
-  "name": "An App By Tom Kelly",
+  "name": "DefaultApp",
   "version": "1.0.0",
   "description": "An app by Tom Kelly",
   "main": "server/start.js",
