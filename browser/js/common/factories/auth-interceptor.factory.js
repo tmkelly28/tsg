@@ -1,5 +1,3 @@
-'use strict';
-
 app.factory('AuthInterceptor', function ($rootScope, $q, AUTH_EVENTS) {
     let statusDict = {
         401: AUTH_EVENTS.notAuthenticated,
@@ -10,7 +8,7 @@ app.factory('AuthInterceptor', function ($rootScope, $q, AUTH_EVENTS) {
     return {
         responseError: function (response) {
             $rootScope.$broadcast(statusDict[response.status], response);
-            return $q.reject(response)
+            return $q.reject(response);
         }
     };
 });

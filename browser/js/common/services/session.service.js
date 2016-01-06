@@ -1,5 +1,3 @@
-'use strict';
-
 app.service('Session', function ($rootScope, AUTH_EVENTS) {
 
     let self = this;
