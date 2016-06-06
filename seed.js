@@ -31,8 +31,8 @@ var seedUsers = function () {
             password: 'password'
         },
         {
-            email: 'obama@gmail.com',
-            password: 'potus'
+            email: 'tmk@gmail.com',
+            password: '123'
         }
     ];
 
